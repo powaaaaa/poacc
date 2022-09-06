@@ -1,6 +1,6 @@
 CFLAGS=-std=c11 -g -static
 
-pocc: poacc.c
+poacc: poacc.c
 
 test: poacc
 	./test.sh
